@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:paddingTop="10dp"
+    android:background="@color/BackgroundTwo">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/Istpricebutton"
+        android:textSize="20dp"
+        android:textColor="@color/PricePlateTextColor"
+        android:layout_marginTop="39dp"
+        android:hint="@string/ButtonHintSelect_FoodPrice_FoodActivity"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:clickable="false"
+        android:background="@drawable/fa_foodprice_buttons_circleside"
+        android:layout_alignParentTop="true"
+        android:fontFamily="14pt"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="40dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/Secondpricebutton"
+        android:textSize="20dp"
+        android:textColor="@color/PricePlateTextColor"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/fa_foodprice_buttons_circleside"
+        android:layout_alignTop="@+id/Istpricebutton"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="14pt"
+        android:hint="@string/ButtonHintSelect2_FoodPrice_FoodActivity"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/Thirdpricebutton"
+        android:background="@drawable/fa_foodprice_buttons_circleside"
+        android:layout_marginTop="82dp"
+        android:fontFamily="14pt"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/PricePlateTextColor"
+        android:hint="@string/ButtonHintSelect3_FoodPrice_FoodActivity"
+        android:layout_below="@+id/Istpricebutton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="40dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/Fourthpricebutton"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/PricePlateTextColor"
+        android:background="@drawable/fa_foodprice_buttons_circleside"
+        android:fontFamily="14pt"
+        android:hint="@string/ButtonHintSelect4_FoodPrice_FoodActivity"
+        android:layout_above="@+id/Fifthpricebutton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/Thirdpricebutton"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="40dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/Fifthpricebutton"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/PricePlateTextColor"
+        android:background="@drawable/fa_foodprice_buttons_circleside"
+        android:layout_marginTop="91dp"
+        android:fontFamily="14pt"
+        android:hint="@string/ButtonHintSelect5_FoodPrice_FoodActivity"
+        android:layout_below="@+id/Thirdpricebutton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="40dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/Sixthpricebutton"
+        android:textSize="20dp"
+        android:textColor="@color/PricePlateTextColor"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/fa_foodprice_buttons_circleside"
+        android:hint="@string/ButtonHintSelect6_FoodPrice_FoodActivity"
+        android:fontFamily="14pt"
+        android:layout_alignTop="@+id/Fifthpricebutton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="40dp"/>
+
+</RelativeLayout>

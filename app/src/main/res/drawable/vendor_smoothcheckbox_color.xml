@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="ring">
+
+            <gradient
+                android:type="linear"
+                android:startColor="@color/VendorSmoothCheckbox"
+                android:endColor="@color/Vendor.Color.Two"
+                android:centerColor="@color/VendorSmoothCheckboxTwo"
+                android:angle="90"
+                android:gradientRadius="90"/>
+
+        </shape>
+    </item>
+</selector>

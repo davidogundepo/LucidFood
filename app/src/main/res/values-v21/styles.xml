@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+                <!-- Customize your theme here. -->
+                <item name="colorPrimary">@color/colorPrimary</item>
+                <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+                <item name="colorAccent">@color/FA_ConfirmPurchaseCheckboxBorrowedFromAppTheme</item>
+        </style>
+
+        <style name="MainActivity" parent="Theme.AppCompat.Light.NoActionBar">
+                <item name="colorPrimary">@color/colorNursery</item>
+                <item name="colorPrimaryDark">@color/colorNurseryDark</item>
+                <item name="colorAccent">@color/colorAccent</item>
+                <item name="android:navigationBarColor">@color/EachActivityNavigationBar</item>
+        </style>
+
+        <style name="SamAnimation.Window" parent="@android:style/Animation.Activity">
+                <item name="android:windowEnterAnimation">@anim/dialoguebox_zoom_in</item>
+                <item name="android:windowExitAnimation">@anim/dialoguebox_zoom_out</item>
+        </style>
+
+        <style name="SetDialogAnimation">
+                <item name="android:windowEnterAnimation">@anim/dialoguebox_slide_up</item>
+                <item name="android:windowExitAnimation">@anim/dialoguebox_slide_down</item>
+        </style>
+
+
+                                <!-- Below For The Activities -->
+
+        <style name="Vendor_LoginActivity" parent="Theme.AppCompat.Light.NoActionBar">
+                <item name="android:colorPrimary">@color/colorUniversity</item>
+                <item name="android:colorPrimaryDark">@color/colorUniversityDark</item>
+                <item name="colorAccent">@color/colorEcCent</item>
+                <item name="android:textColor">@color/VendorLoginName.BackgroundOne</item>
+                <item name="android:navigationBarColor">@color/EachActivityNavigationBar</item>
+                <item name="android:textColorPrimary">@color/colorUniversityTwo</item>
+                <item name="android:textColorSecondary">@color/VendorLoginToolbarIconColor</item>
+                <item name="android:actionOverflowButtonStyle">@style/Vendor_LoginActivity.Overflow</item>
+        </style>
+
+        <style name="Vendor_LoginActivity.Overflow">
+                <item name="android:src">@drawable/a_vendorlogin_activity_overflowmenu_btn</item>
+        </style>
+
+
+        <style name="VendorActivity" parent="Theme.AppCompat.Light.NoActionBar">
+                <item name="android:colorPrimary">@color/colorSecondary</item>
+                <item name="android:colorPrimaryDark">@color/colorSecondaryDark</item>
+                <item name="colorAccent">@color/colorCcCentTwo</item>
+                <item name="android:navigationBarColor">@color/EachActivityNavigationBar</item>
+                <item name="android:textColor">@color/colorCcCentThree</item>
+                <item name="android:textColorPrimary">@color/colorCcCent</item>
+                <item name="android:textColorSecondary">@color/VendorToolbarIconColor</item>
+                <item name="android:actionOverflowButtonStyle">@style/VendorActivity.Overflow</item>
+        </style>
+
+        <style name="VendorActivity.Overflow">
+                <item name="android:src">@drawable/a_vendor_activity_overflowmenu_btn</item>
+        </style>
+
+        <style name="LoginActivity" parent="Theme.AppCompat.Light.NoActionBar">
+                <item name="android:colorPrimary">@color/colorUniversity</item>
+                <item name="android:colorPrimaryDark">@color/colorUniversityDark</item>
+                <item name="android:colorAccent">@color/colorEcCent</item>
+                <item name="android:textColor">@color/VendorLoginName.BackgroundOne</item>
+                <item name="android:navigationBarColor">@color/EachActivityNavigationBar</item>
+                <item name="android:textColorPrimary">@color/colorUniversity</item>
+        </style>
+
+        <style name="FoodmenuActivity" parent="Theme.AppCompat.Light.NoActionBar">
+                <item name="colorPrimary">@color/colorNursery</item>
+                <item name="colorPrimaryDark">@color/colorNurseryDark</item>
+                <item name="colorAccent">@color/colorDcCent</item>
+                <item name="android:navigationBarColor">@color/EachActivityNavigationBar</item>
+                <item name="android:textColorSecondary">@color/EachToolbarIconColor</item>
+                <item name="android:textColor">@color/FoodBarTextColor</item>
+                <item name="android:textColorPrimary">@color/TextColor</item>
+                <item name="android:actionOverflowButtonStyle">@style/FoodmenuActivity.Overflow</item>
+        </style>
+
+        <style name="FoodmenuActivity.Overflow">
+            <item name="android:src">@drawable/a_foodmenu_activity_overflowmenu_btn</item>
+        </style>
+
+        <style name="ServingActivity" parent="Theme.AppCompat.Light.NoActionBar">
+                <item name="android:navigationBarColor">@color/EachActivityNavigationBar</item>
+                <item name="android:textColor">@color/ColorText</item>
+                <item name="android:textColorPrimary">@color/TextColorr</item>
+        </style>
+
+        <style name="Checkbox">
+                <item name="android:layout_width">match_parent</item>
+                <item name="android:layout_height">wrap_content</item>
+                <item name="android:paddingLeft">24dp</item>
+                <item name="android:textSize">16sp</item>
+                <item name="android:textColor">#000000</item>
+        </style>
+
+        <style name="ConfirmDialogueCheckBox" parent="Theme.AppCompat.Light">
+                <!--<item name="android:layout_width">wrap_content</item>-->
+                <!--<item name="android:layout_height">wrap_content</item>-->
+                <!--<item name="android:paddingLeft">24dp</item>-->
+                <!--<item name="android:textSize">16sp</item>-->
+                <item name="colorControlNormal">#F48FB1</item>
+                <item name="colorControlActivated">#F48FB1</item>
+        </style>
+
+        <style name="VendorActivityCheckBox"  parent="Theme.AppCompat.Light">
+                <item name="colorControlNormal">#009688</item>
+                <item name="colorControlActivated">#303F9F</item>
+        </style>
+
+        <style name="FoodmenuActivityLucidAppMainFont">
+                <item name="android:layout_width">wrap_content</item>
+                <item name="android:layout_height">wrap_content</item>
+                <item name="android:textSize">@dimen/lucid_text_size</item>
+        </style>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient
+        android:startColor="@color/ScrollBarColor"
+        android:centerColor="@color/ScrollBarColorThree"
+        android:endColor="@color/ScrollBarColorTwo"
+        android:type="linear"
+         />
+    <corners
+        android:radius="8dp" />
+    <size
+        android:width="4dp"
+        android:height="1sp" />
+
+    <padding
+        android:left=".5dp"
+        android:right=".5dp" />
+
+</shape>

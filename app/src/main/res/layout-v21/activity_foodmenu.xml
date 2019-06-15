@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_Foodmenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundAllFragment"
+    tools:context="com.icdatofcusgmail.lucidfood.FoodmenuActivityArchive.FoodmenuActivity">
+
+    <include
+        android:id="@+id/ToolbarFoodmenuActivity"
+        layout="@layout/toolbar_foodmenuactivity"
+        android:layout_height="65dp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/ToolbarFoodmenuActivityLogo" />
+
+    <include
+        android:id="@+id/ToolbarFoodmenuActivityLogo"
+        layout="@layout/toolbar_fodmenuactivitylogo"
+        android:layout_height="65dp"
+        android:layout_width="match_parent"/>
+
+    <com.antonionicolaspina.revealtextview.RevealTextView
+        app:rtv_duration="4000"
+        android:text="@string/FoodmenuActivityFirstToolbarlucidfoodname"
+        android:elevation="5dp"
+        android:fontFamily="14pt"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        style="@style/FoodmenuActivityLucidAppMainFont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AppName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/ToolbarFoodmenuActivity" />
+
+
+    <TextView
+        android:text="@string/FoodmenuActivitySecondToolbarwelcome_usernamehere"
+        android:elevation="5dp"
+        android:fontFamily="14pt"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/UserWelcome"
+        android:layout_below="@+id/ToolbarFoodmenuActivityLogo"
+        android:layout_toEndOf="@+id/FragmentFoodavailable"
+        android:layout_marginStart="23dp"
+        android:layout_above="@+id/FragmentFoodprice" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/animatedImages"
+        android:elevation="4dp"
+        android:src="@drawable/fa_hunger_displacement_drill"
+        android:contentDescription="@string/Content_Description_AnimatedImages"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/FragmentCounter"
+        android:layout_above="@+id/ToolbarFoodmenuActivity" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/c_davooo"
+        android:elevation="4dp"
+        android:padding="8dp"
+        android:id="@+id/ServerImage"
+        android:layout_toStartOf="@+id/UserWelcome"
+        android:layout_above="@+id/FragmentFoodavailable" />
+
+    <fragment
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:name="com.icdatofcusgmail.lucidfood.FoodmenuActivityArchive.FoodavailableFragment"
+        android:id="@+id/FragmentFoodavailable"
+        tools:layout="@layout/foodmenufragment_foodavailable"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ToolbarFoodmenuActivity"
+        android:layout_above="@+id/FragmentSelectPlatenumberandPurchase"
+        tools:ignore="RtlCompat" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:name="com.icdatofcusgmail.lucidfood.FoodmenuActivityArchive.PlatecountConfirmpurchaseFragment"
+        android:id="@+id/FragmentSelectPlatenumberandPurchase"
+        android:layout_alignParentStart="true"
+        tools:layout="@layout/foodmenufragment4_pc_cp"
+        android:layout_alignParentBottom="true" />
+
+    <fragment
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:name="com.icdatofcusgmail.lucidfood.FoodmenuActivityArchive.ChosenplateCounter"
+        android:id="@+id/FragmentCounter"
+        android:layout_alignBottom="@+id/FragmentSelectPlatenumberandPurchase"
+        android:layout_centerHorizontal="true"
+        tools:layout="@layout/foodmenufragment5_chosenplate_counter" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:name="com.icdatofcusgmail.lucidfood.FoodmenuActivityArchive.ChosenfoodFragment"
+        android:id="@+id/FragmentChosenfood"
+        tools:layout="@layout/foodmenufragment3_chosenfood"
+        android:layout_toEndOf="@+id/FragmentFoodavailable"
+        android:layout_below="@+id/FragmentFoodprice"
+        android:layout_above="@+id/FragmentSelectPlatenumberandPurchase" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:name="com.icdatofcusgmail.lucidfood.FoodmenuActivityArchive.FoodpriceFragment"
+        android:id="@+id/FragmentFoodprice"
+        tools:layout="@layout/foodmenufragment2_foodprice"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/FragmentFoodavailable"
+        android:layout_below="@+id/ToolbarFoodmenuActivity" />
+
+    <TextClock
+        android:id="@+id/textClock"
+        android:layout_width="wrap_content"
+        android:elevation="5dp"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/AppName"
+        android:format12Hour="hh:mm:ss a"
+        android:layout_alignBottom="@+id/AppName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="35dp" />
+
+    <TextView
+        android:id="@+id/fullUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:visibility="invisible"
+        android:layout_alignBottom="@+id/textClock"
+        android:layout_toStartOf="@+id/FragmentCounter"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/CountMyPlate"
+        android:elevation="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="@string/PlateCountNo" />
+
+    <TextView
+        android:id="@+id/emailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/FragmentFoodprice"
+        android:layout_alignEnd="@+id/animatedImages"
+        android:layout_marginBottom="21dp"
+        android:visibility="invisible"
+        android:elevation="5dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/InPackorPlate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/emailAddress"
+        android:layout_marginEnd="38dp"
+        android:layout_toStartOf="@+id/textClock"
+        android:elevation="5dp"
+        android:visibility="invisible"
+        android:text="NO" />
+
+    <TextView
+        android:id="@+id/sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:visibility="invisible"
+        android:elevation="5dp"
+        android:text="sex" />
+
+</RelativeLayout>

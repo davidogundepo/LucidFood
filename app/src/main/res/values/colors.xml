@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="EachActivityNavigationBar">#FFFFFF</color>
+    <color name="EachToolbarIconColor">#FFFFFF</color>
+
+                <!-- Default  -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#4B5CB9</color>
+    <color name="colorAccent">#607D8B</color>
+
+
+    <!-- VendorLoginActivity Only -->
+
+    <color name="VendorLoginToolbarIconColor">#000000</color>
+    <color name="DialogueTextColor">#0277BD</color>
+    <color name="VendorLoginName.BackgroundOne">#009688</color>
+    <color name="VendorLoginName.BackgroundTwo">#80CBC4</color>
+    <color name="TimeWatcher">#7986CB</color>
+    <color name="colorUniversity">#7986CB</color>
+    <color name="colorUniversityTwo">#5C6BC0</color>
+    <color name="colorUniversityDark">#5C6BC0</color>
+    <color name="EditTextColor">#BBDEFB</color>
+    <color name="colorEcCent">#26A69A</color>
+    <color name="AccessButtonTextColor">#FFFFFF</color>
+    <color name="HelloAmazing">#FFFFFF</color>
+    <color name="AccessButtonBackgroundColor">#5C6BC0</color>
+    <color name="AccessButtonBackgroundStrokeColor">#80CBC4</color>
+    <color name="ConfirmIDColor">#90CAF9</color>
+    <color name="ActionBarButtonMenuColor">#43A047</color>
+
+         <!-- VendorActivity Only -->
+    <color name="VendorToolbarIconColor">#FF8A65</color>
+    <color name="colorSecondary">#607D8B</color>
+    <color name="colorSecondaryDark">#FFEE58</color>
+    <color name="colorCcCent">#BA68C8</color>
+    <color name="colorCcCentTwo">#CE93D8</color>
+    <color name="colorCcCentThree">#BA68C8</color>
+    <color name="Vendor.Color">#607D8B</color>
+    <color name="Vendor.Color.Three">#607D8B</color>
+    <color name="UpdatingItemsColor">#607D8B</color>
+    <color name="VendorBackground">#E57373</color>
+    <color name="VendorFragmentBackground">#FFFFFF</color>
+    <color name="VendorIDBackground">#E57373</color>
+    <color name="VendorIDNumberColor">#607D8B</color>
+    <color name="VendorSmoothCheckbox">#607D8B</color>
+    <color name="VendorSmoothCheckboxTwo">#E57373</color>
+    <color name="Vendor.Color.Two">#FFFFFF</color>
+    <color name="Vendor.Kolor">#607D8B</color>
+    <color name="Vendor.Kolor.Two">#37474F</color>
+    <color name="AddOrRemoveButtonTextColor">#E57373</color>
+    <color name="DoneButtonTextColor">#E57373</color>
+
+
+    <!-- LoginActivity Only -->
+    <color name="HelloAmazingLogin">#FFFFFF</color>
+    <color name="LoginName.BackgroundOne">#7E57C2</color>
+    <color name="LoginName.BackgroundTwo">#B39DDB</color>
+    <color name="LoginEditTextColor">#D1C4E9</color>
+    <color name="LoginEditTextWatcher">#D1C4E9</color>
+    <color name="LoginConfirmIDColor">#9575CD</color>
+    <color name="LoginToolbarIconColor">#FFFFFF</color>
+    <color name="LoginButtonTextColor">#FFFFFF</color>
+    <color name="LoginButtonColor">#80CBC4</color>
+    <color name="LoginButtonColorTwo">#B39DDB</color>
+    <color name="LoginButtonColorThree">#7E57C2</color>
+    <color name="LoginButtonColorStroke">#F5F5F5</color>
+    <color name="LoginColor.Title">#FFFFFF</color>
+    <color name="LoginColor.Access">#FFFFFF</color>
+    <color name="Login.Color">#278E68</color>
+    <color name="EditTextColorLogin">#CFD8DC</color>
+    <color name="EditTextStatus">#FFFFFF</color>
+
+
+        <!-- FoodmenuActivity Only -->
+    <color name="FoodToolbarIconColor">#FFFFFF</color>
+    <color name="FoodBarTextColor">#F48FB1</color>
+    <color name="colorSnqck">#FFFFFF</color>
+    <color name="colorNursery">#BA68C8</color>
+    <color name="colorNurseryDark">#F44336</color>
+    <color name="colorNurseryDarkTwo">#E57373</color>
+    <color name="colorDcCent">#BA68C8</color>
+    <color name="ScrollBarColor">#BA68C8</color>
+    <color name="ScrollBarColorTwo">#FFFFFF</color>
+    <color name="ScrollBarColorThree">#E1BEE7</color>
+    <color name="pc_cp_selectRipple">#BA68C8</color>
+    <color name="TextColor">#000000</color>
+    <color name="ActionBarTextColor">#455A64</color>
+    <color name="myPayColor">#000000</color>
+    <color name="TextColorTwo_Food_A">#FFFFFF</color>
+    <color name="AvailableFoodTextColor">#FFFFFF</color>
+    <color name="AvailableFoodCircleBorderColor">#FFFFFF</color>
+    <color name="PricePlateTextColor">#FFFFFF</color>
+    <color name="PricePlateBackground">#CE93D8</color>
+    <color name="PricePlateBackgroundStroke">#BA68C8</color>
+    <color name="TextColorThree_Food_A">#455A64</color>
+    <color name="ChosenPlateTextColor">#E57373</color>
+    <color name="ChosenPlateBackGround">#FFFFFF</color>
+    <color name="ChosenPlateDeleteBackGround">#CE93D8</color>
+    <color name="ChosenPlateDeleteBackGroundRipple">#BA68C8</color>
+    <color name="BackgroundAllFragment">#BA68C8</color>
+    <color name="BackgroundOne">#F48FB1</color>
+    <color name="BackgroundTwo">#F48FB1</color>
+    <color name="BackgroundThree">#F48FB1</color>
+    <color name="BackgroundFour">#F48FB1</color>
+    <color name="BackgroundFive">#F48FB1</color>
+    <color name="BackgroundFiveText">#BA68C8</color>
+    <color name="TextColor_Two">#FFEE58</color>
+
+    <color name="FA_ConfirmPurchaseLayout">#BA68C8</color>
+    <color name="FA_ConfirmPurchaseCheckboxBorrowedFromAppTheme">#FFFFFF</color>
+    <color name="FoodActivityBlackText">#000000</color>
+
+    <color name="userProfileLayoutStart">#CE93D8</color>
+    <color name="userProfileIconColor">#FFFFFF</color>
+    <color name="userProfileLayoutEnd">#CE93D8</color>
+    <color name="userProfileButtonColor">#F48FB1</color>
+    <color name="lowerBoundUPLayoutColor">#BA68C8</color>
+    <color name="UPCardViewLayout">#F48FB1</color>BA68C8
+    <color name="userProfileTextColor">#FFFFFF</color>
+    <color name="userProfileTextColorTwo">#FFFFFF</color>
+    <color name="userProfileButtonTextColor">#FFFFFF</color>
+    <color name="userProfileNameTextColor">#FFFFFF</color>
+
+    <!-- ServingActivity Only -->
+    <color name="ServingToolbarIconColor">#FFFFFF</color>
+    <color name="PlatePackTextColor">#FFFFFF</color>
+    <color name="PlateTextColor">#FFFFFF</color>
+    <color name="CardColor">#4DB6AC</color>
+    <color name="TextColorr">#8D6E63</color>
+    <color name="ColorText">#FFFFFF</color>
+    <color name="ServingBackground">#4DB6AC</color>
+    <color name="CardTextColor">#FFFFFF</color>
+    <color name="PlatesColor">#EF5350</color>
+    <color name="PackorPlates">#8D6E63</color>
+
+
+</resources>

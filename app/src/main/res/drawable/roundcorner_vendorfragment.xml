@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+
+            <gradient
+                android:type="linear"
+                android:startColor="@color/VendorFragmentBackground"
+                android:endColor="@color/VendorFragmentBackground"
+                android:centerColor="@color/VendorFragmentBackground"
+                android:angle="90"
+                android:gradientRadius="90"/>
+
+            <stroke android:color="@color/Vendor.Color.Three"
+                android:width="4dp"/>
+
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+</selector>
