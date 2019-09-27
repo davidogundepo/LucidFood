@@ -74,6 +74,8 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         Log.d("LoginActivity","onCreate invoked");
 
+
+
         app_real = LucidApplication.getInstance();
 
         quantumElevation = new AlertDialog.Builder(LoginActivity.this);
